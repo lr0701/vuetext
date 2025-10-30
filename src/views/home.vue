@@ -11,6 +11,9 @@
         <Shijianchuancan></Shijianchuancan>
         <Shijianxiushifu></Shijianxiushifu>
         <Shuzubianhuazhence></Shuzubianhuazhence>
+        <Jisuanshuxing></Jisuanshuxing>
+        <Classbangding></Classbangding>
+
     </div>
 </template>
 
@@ -24,6 +27,8 @@ import Shijianchuancan from '../components/shijianchuancan.vue';
 import Shijianchuli from '../components/shijianchuli.vue';
 import Shijianxiushifu from '../components/shijianxiushifu.vue';
 import Shuzubianhuazhence from '../components/shuzubianhuazhence.vue';
+import Jisuanshuxing from '../components/jisuanshuxing.vue';
+import Classbangding from '../components/classbangding.vue';
 
 
 
@@ -38,7 +43,9 @@ export default {
     Shijianchuli,
     Shijianchuancan,
     Shijianxiushifu,
-    Shuzubianhuazhence
+    Shuzubianhuazhence,
+    Jisuanshuxing,
+    Classbangding,
   },
 }
 
