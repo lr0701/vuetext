@@ -7,11 +7,11 @@
         <div>{{ content.text.length > 2 ? 'yes' : 'no' }}</div>
         <div>{{ content.results.length > 0 ? (content.text1.length > 0 ? "yes" : "55555") : "22222" }}</div>
         <p>{{ isResults }}</p>
-        <p>{{ isDatat() }}</p>
+        <!-- <p>{{ isDat}}</p> -->
         <hr>
     </div>
 
-</template>
+</template>isDat
   
 <script>
 export default {
