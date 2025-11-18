@@ -11,6 +11,7 @@
         <Zuhezhentingqi></Zuhezhentingqi>
         <Zuhemobanyingyong></Zuhemobanyingyong>
         <Zuheshengmingzhouqi></Zuheshengmingzhouqi>
+        <ZuheProps></ZuheProps>
     </div>
 </template>
 
@@ -21,6 +22,8 @@ import Zuheshijianchuli from "../newcomponents/zuheshijianchuli.vue";
 import Zuhezhentingqi from "../newcomponents/zuhezhentingqi.vue";
 import Zuhemobanyingyong from "../newcomponents/zuhemobanyingyong.vue";
 import Zuheshengmingzhouqi from "../newcomponents/zuheshengmingzhouqi.vue";
+import ZuheProps from "../newcomponents/zuheProps.vue";
+
 
 export default {
     name: "new",
@@ -35,7 +38,8 @@ export default {
         Zuheshijianchuli,
         Zuhezhentingqi,
         Zuhemobanyingyong,
-        Zuheshengmingzhouqi
+        Zuheshengmingzhouqi,
+        ZuheProps
 
     },
     mounted() {
