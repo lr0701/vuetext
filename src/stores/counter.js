@@ -19,7 +19,7 @@ export const useCounterStore = defineStore("counter", () => {
   const list = ref([]);
   const getList = async () => {
     const res = await axios.get(
-      "https://s5.360game.360.cn/tos/mini/v21/category.html?cver=1.0.0.0000"
+      "https://s5.360game.360.cn/to5/mini/v21/category.html?cver=1.0.0.0000"
     );
     list.value = res.data.data;
   };
