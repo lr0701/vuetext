@@ -5,6 +5,7 @@ import {
 import Home from '../views/home.vue'
 import New from '../views/new.vue'
 import Geleizujian from '../views/geleizujian.vue'
+import Yidongzujian from '../views/yidongzujian.vue'
 
 const routes = [{
     path: '/',
@@ -20,7 +21,13 @@ const routes = [{
     path: '/geleizujian',
     name: 'Geleizujian',
     component: Geleizujian,
-  }
+  },
+  {
+    path: '/yidongzujian',
+    name: 'Yidongzujian',
+    component: Yidongzujian,
+  },
+
 ]
 
 const router = createRouter({
